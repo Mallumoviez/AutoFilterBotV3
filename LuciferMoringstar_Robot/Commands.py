@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 Join Updates CHANNEL 📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -117,7 +117,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("group", https://t.me/mallumoviezgroups='')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
+                InlineKeyboardButton("Cammands", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
