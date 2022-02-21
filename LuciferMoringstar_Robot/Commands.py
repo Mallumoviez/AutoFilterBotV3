@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Here Acces 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 Join channel 🎖', url=f'{https://t.me/mallumoviezchannel}')
+                        InlineKeyboardButton('🎖 Group 🎖', url=f'{https://t.me/mallu_moviez_group}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates CHANNEL 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 Join Updates channel 📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -115,7 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("group", https://t.me/mallumoviezgroups='')
+                InlineKeyboardButton("➕Add Me To Your Group ➕", https://t.me/mallu_moviez_filter_bot?startgroup=true'')
                 ],[
                 InlineKeyboardButton("Cammands", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('➕ ADD ME TO YOUR GROUPS ➕', url= https://t.me/mallu_moviez_filter_bot?startgroup=true)
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
