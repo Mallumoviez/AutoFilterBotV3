@@ -115,7 +115,9 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("➕Add Me To Your Group ➕", https://t.me/mallu_moviez_filter_bot?startgroup=true'')
+                InlineKeyboardButton("➕Add Me To Your Group ➕",url= https://t.me/mallu_moviez_filter_bot?startgroup=true)
+                ],[    
+                InlineKeyboardButton("My Group 📌",url= https://t.me/mallu_moviez_group)
                 ],[
                 InlineKeyboardButton("Cammands", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
