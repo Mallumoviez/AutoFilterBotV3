@@ -118,7 +118,9 @@ async def start(bot, message):
                 InlineKeyboardButton("➕Add Me To Your Group ➕",url= https://t.me/mallu_moviez_filter_bot?startgroup=true)
                 ],[    
                 InlineKeyboardButton("My Group 📌",url= https://t.me/mallu_moviez_group)
-                InlineKeyboardButton("My Channel 💝"url= https://t.me/mallumoviezchannel)
+                InlineKeyboardButton("My Channel ⭕"url= https://t.me/mallumoviezchannel)    
+                ],[
+                InlineKeyboardButton("⭕ You Tube Channel ⭕"
                 ],[
                 InlineKeyboardButton("Cammands", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
